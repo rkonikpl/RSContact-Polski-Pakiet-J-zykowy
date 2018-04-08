@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="file" method="upgrade">
+    <name>RSContact! Polski Pakiet Językowy</name>
+    <version>1.0.0</version>
+    <tag>pl-PL</tag>
+    <creationDate>07/04/2018</creationDate>
+    <author>rKonik Rafał Kobyliński</author>
+    <authorEmail></authorEmail>
+    <authorUrl>rkonik.com</authorUrl>
+    <license>GNU/GPL http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description><![CDATA[
+    <div class="text-center span12">
+        <h3>Polski Pakiet językowy dla modułu RSContact!</h3>
+        <p><span style="font-weight: normal">rKonik Rafał Kobyliński przeprowadził kompletne tłumaczenia modułu<br />Przygotowanie kosztuje wiele czasu i pracy.</span></p>
+        <div class="alert alert-info">
+            <h3>Jesteś zadowolony z tłumaczenia, Pakiet się przydał i zaoszczędził tobie wiele czasu.</h3>
+
+            <p>&nbsp;</p>
+            <H1>Dziękujemy</h1>
+        </div>
+    </div>
+    ]]></description>
+    <fileset>
+        <files folder="site" target="language/pl-PL">
+            <filename>pl-PL.mod_rscontact.ini</filename>
+            <filename>pl-PL.mod_rscontact.sys.ini</filename>
+        </files>
+    </fileset>
+</extension>
